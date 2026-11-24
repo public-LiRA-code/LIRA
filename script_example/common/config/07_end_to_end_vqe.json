@@ -1,0 +1,157 @@
+{
+ "section": "07_end_to_end_vqe",
+ "points": [
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g4_n32_lira",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--engine",
+    "lira"
+   ],
+   "env": {},
+   "minutes": 60
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g16_n34_lira",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 16,
+   "qubits": 34,
+   "args": [
+    "--engine",
+    "lira"
+   ],
+   "env": {},
+   "minutes": 60
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g64_n36_lira",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 64,
+   "qubits": 36,
+   "args": [
+    "--engine",
+    "lira"
+   ],
+   "env": {},
+   "minutes": 60
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g128_n37_lira",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 128,
+   "qubits": 37,
+   "args": [
+    "--engine",
+    "lira"
+   ],
+   "env": {},
+   "minutes": 60
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g4_n32_lgpu",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--engine",
+    "lgpu",
+    "--time-limit",
+    "500"
+   ],
+   "env": {},
+   "minutes": 23
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g16_n34_lgpu",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 16,
+   "qubits": 34,
+   "args": [
+    "--engine",
+    "lgpu",
+    "--time-limit",
+    "700"
+   ],
+   "env": {},
+   "minutes": 26
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g64_n36_lgpu",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 64,
+   "qubits": 36,
+   "args": [
+    "--engine",
+    "lgpu",
+    "--time-limit",
+    "600"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g4_n32_lkk",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--engine",
+    "kokkos",
+    "--time-limit",
+    "1200"
+   ],
+   "env": {},
+   "minutes": 35
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g16_n34_lkk",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 16,
+   "qubits": 34,
+   "args": [
+    "--engine",
+    "kokkos",
+    "--time-limit",
+    "1500"
+   ],
+   "env": {},
+   "minutes": 40
+  },
+  {
+   "tag": "vqe_tfim1dp_n-2_native_g64_n36_lkk",
+   "engine": "vqe",
+   "case": "tfim1dp_n/2",
+   "obs": "native",
+   "gpus": 64,
+   "qubits": 36,
+   "args": [
+    "--engine",
+    "kokkos",
+    "--time-limit",
+    "1500"
+   ],
+   "env": {},
+   "minutes": 40
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+--- a/pennylane_lightning/core/simulators/lightning_kokkos/StateVectorKokkosMPI.hpp
++++ b/pennylane_lightning/core/simulators/lightning_kokkos/StateVectorKokkosMPI.hpp
+@@ -20,6 +20,7 @@
+ #include <complex>
+ #include <cstddef>
+ #include <cstdlib>
++#include <cstdio>
+ #include <string>
+ #include <unordered_map>
+ #include <unordered_set>
+@@ -908,6 +909,39 @@
+         std::size_t dest_mpi_rank = getElementIndexInVector(
+             mpi_rank_to_global_index_map_target, dest_global_index);
+ 
++        std::size_t src_mpi_rank = dest_mpi_rank;
++        {
++            const std::size_t me_ = static_cast<std::size_t>(mpi_manager_.getRank());
++            const std::size_t nr_ = static_cast<std::size_t>(mpi_manager_.getSize());
++            auto dest_of = [&](std::size_t r) {
++                const std::size_t gi = getGlobalIndexFromMPIRank(static_cast<int>(r));
++                std::size_t d = 0;
++                for (std::size_t i = 0; i < global_wires_.size(); ++i) {
++                    const std::size_t w = getElementIndexInVector(
++                        global_wires_target, global_wires_[global_wires_.size() - i - 1]);
++                    d |= (((gi >> i) & 1) << getRevWireIndex(global_wires_, w));
++                }
++                return getElementIndexInVector(mpi_rank_to_global_index_map_target, d);
++            };
++            PL_ABORT_IF(dest_of(me_) != dest_mpi_rank, "verification patch: dest differs");
++            std::size_t inv_ = me_;
++            for (std::size_t r = 0; r < nr_; ++r) {
++                if (dest_of(r) == me_) {
++                    inv_ = r;
++                }
++            }
++            if (std::getenv("LKK_RECEIVE_RANK_DEBUG") != nullptr) {
++                std::fprintf(stderr,
++                             "[kkmatch] rank %zu of %zu: send to %zu, receive from %zu "
++                             "(original code receives from %zu)%s\n",
++                             me_, nr_, dest_mpi_rank, inv_, dest_mpi_rank,
++                             inv_ != dest_mpi_rank ? "  MISMATCH" : "");
++                std::fflush(stderr);
++            }
++            if (std::getenv("LKK_RECEIVE_RANK_FIX") != nullptr) {
++                src_mpi_rank = inv_;
++            }
++        }
+         std::size_t send_size = exp2(getNumLocalWires() - 1);
+         auto sendbuf_view = (*sendbuf_);
+         auto recvbuf_view = (*recvbuf_);
+@@ -925,7 +959,7 @@
+                 });
+             Kokkos::fence();
+             // SENDRECV
+-            sendrecvBuffers(dest_mpi_rank, dest_mpi_rank, send_size, 0);
++            sendrecvBuffers(dest_mpi_rank, src_mpi_rank, send_size, 0);
+             // COPY FROM BUFFER
+ 
+             Kokkos::parallel_for(

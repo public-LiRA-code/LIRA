@@ -1,0 +1,1274 @@
+{
+ "section": "01_single_node",
+ "points": [
+  {
+   "tag": "workloads",
+   "engine": "workloads",
+   "case": "",
+   "obs": "",
+   "gpus": 0,
+   "qubits": 0,
+   "args": [],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n24",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n25",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n26",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n27",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n28",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n29",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n30",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n31",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 31,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_sel_4_meanz_g1_n32",
+   "engine": "onegpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 32,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n24",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n25",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n26",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n27",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n28",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n29",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n30",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n31",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 31,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g1_n32",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 32,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 20
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n24_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n24_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n25_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n25_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n26_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n26_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n27_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n27_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n28_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n28_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n29_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n29_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n30_s5",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--tq-static",
+    "5",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "tq_sel_4_meanz_g1_n30_s6",
+   "engine": "tq",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--tq-static",
+    "6",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "vqcsim_sel_4_meanz_g1_n24",
+   "engine": "vqcsim",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "vqcsim_sel_4_meanz_g1_n25",
+   "engine": "vqcsim",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "vqcsim_sel_4_meanz_g1_n26",
+   "engine": "vqcsim",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "vqcsim_sel_4_meanz_g1_n27",
+   "engine": "vqcsim",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "vqcsim_sel_4_meanz_g1_n28",
+   "engine": "vqcsim",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 10
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n24",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n25",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n26",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n27",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n28",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n29",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n30",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "yao_sel_4_meanz_g1_n31",
+   "engine": "yao",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 31,
+   "args": [
+    "c64",
+    "3",
+    "gpu"
+   ],
+   "env": {},
+   "minutes": 50
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n24",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "2"
+   ],
+   "env": {},
+   "minutes": 5
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n25",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 25,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "2"
+   ],
+   "env": {},
+   "minutes": 5
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n26",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 26,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "2"
+   ],
+   "env": {},
+   "minutes": 8
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n27",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 27,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "2"
+   ],
+   "env": {},
+   "minutes": 12
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n28",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 15
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n29",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 29,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "qulacs_sel_4_meanz_g1_n30",
+   "engine": "qulacs",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--qulacs",
+    "--no-lightning",
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 45
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n28",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 28,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n29",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 29,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n30",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 30,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n31",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 31,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n32",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n33",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 33,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lira_sel_4_meanz_g4_n34",
+   "engine": "lira",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 34,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 25
+  },
+  {
+   "tag": "lgpu_sel_4_meanz_g4_n28",
+   "engine": "lgpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 28,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lgpu_sel_4_meanz_g4_n29",
+   "engine": "lgpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 29,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lgpu_sel_4_meanz_g4_n30",
+   "engine": "lgpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 30,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lgpu_sel_4_meanz_g4_n31",
+   "engine": "lgpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 31,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lgpu_sel_4_meanz_g4_n32",
+   "engine": "lgpu",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g4_n28",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 28,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g4_n29",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 29,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g4_n30",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 30,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g4_n31",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 31,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "lkk_sel_4_meanz_g4_n32",
+   "engine": "lkk",
+   "case": "sel_4",
+   "obs": "meanz",
+   "gpus": 4,
+   "qubits": 32,
+   "args": [
+    "--repeat",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n24_default",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n24_memsave",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--mem-save"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n24_ckptlayer",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--ckpt-blocks",
+    "2",
+    "--ckpt-layers",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_khea_14_meanz_g1_n24_kawase-table",
+   "engine": "onegpu",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 24,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3",
+    "--no-lightning"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n28_default",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n28_memsave",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--mem-save"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n28_ckptlayer",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--ckpt-blocks",
+    "2",
+    "--ckpt-layers",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_khea_14_meanz_g1_n28_kawase-table",
+   "engine": "onegpu",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 28,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3",
+    "--no-lightning"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n30_default",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n30_memsave",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--mem-save"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "kawase_khea_14_meanz_g1_n30_ckptlayer",
+   "engine": "kawase",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--layers",
+    "14",
+    "--repeat",
+    "3",
+    "--ckpt-blocks",
+    "2",
+    "--ckpt-layers",
+    "1"
+   ],
+   "env": {},
+   "minutes": 30
+  },
+  {
+   "tag": "onegpu_khea_14_meanz_g1_n30_kawase-table",
+   "engine": "onegpu",
+   "case": "khea_14",
+   "obs": "meanz",
+   "gpus": 1,
+   "qubits": 30,
+   "args": [
+    "--variants",
+    "full",
+    "--repeat",
+    "3",
+    "--no-lightning"
+   ],
+   "env": {},
+   "minutes": 30
+  }
+ ]
+}

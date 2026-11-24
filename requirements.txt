@@ -1,0 +1,9 @@
+numpy==2.5.2
+scipy==1.18.0
+networkx==3.6.1
+cupy-cuda13x==14.2.0
+custatevec-cu12==1.15.0
+nvidia-cuda-runtime-cu12==12.9.79
+pennylane==0.45.1
+pennylane_lightning==0.45.0
+scipy-openblas32==0.3.34.237.0
